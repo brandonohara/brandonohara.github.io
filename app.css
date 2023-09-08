@@ -37,11 +37,15 @@ a {
 }
 .btn-outline {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 5px 10px !important;
+    font-family: 'Roboto Slab', sans-serif;
     color: #333;
     text-align: left;
     text-decoration: none;
     border: 1px solid #333;
+}
+.btn-outline .fa {
+    margin-right: 5px;
 }
 .btn-outline:hover {
     color: white;
@@ -88,7 +92,7 @@ ul.icons li {
 }
 ul.icons li a {
     font-size: 16px;
-    padding: 3px;
+    padding: 8px;
 }
 
 @media (max-width: 500px) {
