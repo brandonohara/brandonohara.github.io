@@ -42,7 +42,7 @@ a {
     color: #333;
     text-align: left;
     text-decoration: none;
-    border: 1px solid #333;
+    border: 1px solid #5b7c99;
 }
 .btn-outline .fa {
     margin-right: 5px;
@@ -50,7 +50,6 @@ a {
 .btn-outline:hover {
     color: white;
     background-color: #5b7c99;
-    border-color: white;
 }
 .btn-icon {
     display: inline-block;
