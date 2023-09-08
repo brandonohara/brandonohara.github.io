@@ -12,6 +12,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    background: #222;
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 0px 0px 15px;
@@ -19,6 +21,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
     margin: 0px 0px 15px;
+    color: #ccc;
+    font-size: 16px;
+    line-height: 22px;
 }
 a {
     color: #5b7c99;
@@ -27,6 +32,9 @@ a {
 
 .flex {
     flex: 1;
+}
+.text-primary {
+    color: #5b7c99;
 }
 .text-left {
     text-align: left;
@@ -70,9 +78,9 @@ a {
     padding: 30px;
 }
 img.avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
     border: 3px solid #5b7c99;
 }
 
@@ -99,5 +107,10 @@ ul.icons li a {
         display: block;
         padding: 60px;
         text-align: center;
+    }
+    img.avatar {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 10px;
     }
 }
