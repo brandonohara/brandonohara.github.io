@@ -64,6 +64,8 @@ svg {
 }
 .btn-icon {
     display: inline-block;
+    width: 16px;
+    height: 16px;
     padding: 5px;
     border-radius: 50%;
     background-color: transparent;
