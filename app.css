@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/fontawesome.min.css');
 
 html, body {
     wdith: 100%;
@@ -39,12 +38,16 @@ a {
 .text-left {
     text-align: left;
 }
-
+svg {
+    fill: #5b7c99;
+    width: 16px;
+}
 .btn {
     transition: all 0.2s ease-out;
 }
 .btn-outline {
-    display: inline-block;
+    display: inline-flex;
+    gap: 5px;
     padding: 5px 10px !important;
     font-family: 'Roboto Slab', sans-serif;
     color: #5b7c99;
@@ -52,12 +55,12 @@ a {
     text-decoration: none;
     border: 1px solid #5b7c99;
 }
-.btn-outline .fa {
-    margin-right: 5px;
-}
 .btn-outline:hover {
     color: white;
     background-color: #5b7c99;
+}
+.btn-outline:hover svg {
+    fill: white;
 }
 .btn-icon {
     display: inline-block;
@@ -66,8 +69,10 @@ a {
     background-color: transparent;
 }
 .btn-icon:hover {
-    color: #222;
     background-color: #5b7c99;
+}
+.btn-icon:hover svg {
+    fill: #222;
 }
 
 .container {
